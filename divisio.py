@@ -1,5 +1,5 @@
-dividend = int(input("Quin és el dividend? "))
-divisor = int(input("Quin és el divisor? "))
+dividend = int(input("Entra el dividend: "))
+divisor = int(input("Entra el divisor: "))
 
 quocient = dividend//divisor
 residu = dividend-(divisor*quocient)
