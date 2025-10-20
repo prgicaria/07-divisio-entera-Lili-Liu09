@@ -1,9 +1,9 @@
-divident = int(input("Entra el divident: "))
-divisor = int(input("Entra el divisor: "))
+dividend = int(input("Quin és el dividend? "))
+divisor = int(input("Quin és el divisor? "))
 
-quocient = divident//divisor
-residu = divident-(divisor*quocient)
+quocient = dividend//divisor
+residu = dividend-(divisor*quocient)
 
-print(f"Divisió:{divident}/{divisor}")
+print(f"Divisió:{dividend}/{divisor}")
 print(f"Quocient: {quocient}")
 print(f"Residu: {residu}")
