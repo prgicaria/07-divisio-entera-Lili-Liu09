@@ -4,6 +4,6 @@ divisor = int(input("Quin és el divisor?"))
 quocient = divident//divisor
 residu = divident-(divisor*quocient)
 
-print(f"Divisió: "dividend/divisor)
+print("Divisió:" divident/divisor)
 print(f"Quocient: {quocient: .0f}")
 print(f"Residu: {residu: .0f}")
